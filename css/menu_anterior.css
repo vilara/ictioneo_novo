@@ -1,0 +1,18 @@
+  /* novos estilos fim */
+
+ul.menubar{	margin: 0px;padding: 0px;  /* IE6 Bug */font-size: 100%; color: #552D00;}
+ul.menubar .submenu{margin: 0px;padding: 0px;list-style: none;border: 0px solid #ccc;float:left;}
+ul.menubar ul.menu{display: none;position: absolute;margin: 0px;}
+ul.menubar a{padding: 5px;display:block;text-decoration: none;color: #433412;padding: 5px;}
+ul.menu, ul.menu ul{margin: 0;padding: 0;border-bottom: 1px solid #ccc;width: 150px; /* Width of Menu Items */background-color: #FFFFFF; /* IE6 Bug */}
+ul.menu li{position: relative;list-style: none;border: 0px;}
+ul.menu li a{display: block;text-decoration: none;border: 1px solid #ccc;border-bottom: 0px;color: #433412;padding: 5px 10px 5px 5px;}
+ul.menu li sup{font-weight:bold;font-size:7px;color: red;}
+/* Fix IE. Hide from IE Mac \*/
+* html ul.menu li { float: left; height: 1%; }
+* html ul.menu li a { height: 1%; }
+/* End */
+ul.menu ul{position: absolute;display: none;left: 149px; /* Set 1px less than menu width */	top: 0px;}
+ul.menu li.submenu ul { display: none; } /* Hide sub-menus initially */
+ul.menu li.submenu { background: transparent url(arrow.gif) right center no-repeat; }
+ul.menu li a:hover { color: #433412; }

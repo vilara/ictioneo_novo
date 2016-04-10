@@ -1,0 +1,76 @@
+
+/* novos estilos início  border: 1px solid #365130;*/
+body       { font: normal 68.5% verdana; }
+  #fildset { box-shadow: 0 0 20px rgba(0,0,0,0.5); border-radius: 10px; border-radius: 10px; font: normal 90% verdana;  margin: 10px auto;  border: 1px solid #365130; width: 30%; padding: 10px 30px;  background: #FFFFFF;}
+  #fildset h3 {  text-align: center;  }
+  #fildset h2 {  text-align: center;  }
+  #fildset label {  display: block; margin: 0px; }
+  #fildset input { margin: 0px 0 5px 0 ; font: normal 90% verdana; border: solid 2px #cece76;}
+  #fildset select { margin: 0px 0 9px 0 ; font: normal 90% verdana; border: solid 2px #cece76; }
+  #fildset .boton { background: #849175; color:#fff; padding: 5px; border: solid 0px; }
+  #fildset hr { background-image: url(../img/header-bg.png);  height: 5px;}
+
+  /* Estilos para mensagem de erro do plugin validate .error { display: none; background: red; box-shadow: 0 0 10px rgba(0,0,0,0.3); color: #fff; font-size: 9px; margin-top: -25px; margin-left: 440px; padding: 5px; position: absolute; }  */
+
+   label.error { color: red; margin-left: 150px;}
+
+ /* Estilos tabelas */
+  #tabelas { margin: 0 auto; width: 80%;  margin: 10px auto; text-align: center; padding: 5px; background: #FFFFFF; box-shadow: 0 0 20px rgba(0,0,0,0.5); border-radius: 10px; border-radius: 10px;}
+  #tabelas h2 {  font-weight: bold; }
+#tabelas input { margin: 0px 0 5px 0 ; font: normal 90% verdana; border: solid 2px #cece76;}
+ /*#tabelas h3 { margin: 0; padding: 0; text-align: center; padding: 3px; background: url(../img/fundo.jpg) repeat-x left; color: #FFFFFF; font-family: Verdana, Helvetica, Sans-serif; font-weight: bold; font-size: 95%;}*/
+  #tabela {width: 100%; margin: auto auto;  margin-top: 10px;}
+  #tabela img {border: none;}
+
+   /* border-collapse: collapse; #e6EEEE*/
+  table.bordasimples {
+
+    border-collapse: collapse;
+    font-family:arial;
+    background-color: #CDCDCD;
+    margin: 10px auto;
+    font-size: 8pt;
+   
+	text-align: left;
+}
+
+table.bordasimples thead tr th, table.bordasimples tfoot tr th {
+   	background-color:  #365130;
+  	border: 1px solid #FFF;
+	font-size: 8pt;
+	padding: 4px;
+}
+
+table.bordasimples tbody td {
+	border: 1px solid #FFF;
+     color: #3D3D3D;
+	padding: 4px;
+	background-color: #FFF;
+	vertical-align: top;
+}
+
+table.bordasimples tbody tr.odd td {
+	background-color:#F0F0F6;
+}
+  table.bordasimples tr td {border:1px solid #CCCCCC;}
+
+
+  table tr.titulo {  background-color: #365130; color: #FFFFFF; font-family: Verdana, Helvetica, Sans-serif; font-weight: bold;}
+  table td.titulo {  background-color: #365130; color: #FFFFFF; font-family: Verdana, Helvetica, Sans-serif; font-weight: bold;}
+
+
+/* Topo*/
+#titulo_geral { text-align: center; margin: 0; margin-bottom: 5px; padding: 0px; width: 100%; color: #FFFFFF;	height: 50px;  background-image: url(../imagens/background_destaque_rede.jpg) ; border: 1px solid #ccc;}
+#titulo_geral_rodape { text-align: center; margin: 0; margin-bottom: 5px; padding: 0px; width: 100%; color: #FFFFFF;	height: 30px; background-image: url(../imagens/background_destaque_rede.jpg) ; border: 1px solid #ccc;}
+
+#titulo_geral h3 { margin: 0; padding: 0; text-align: center; font-weight: bold; margin-top: 15px; font-size: 130%;}
+
+#topo { text-align: left; margin: 0; padding: 0px; width: 100%; color:  #385635;	height: 25px;  background: #FFFFFF;  border: 1px solid  #385635;}
+
+/* Container */
+
+#container {
+  width: 100%;
+  height: 100%;
+  border: 0px solid  #000000;
+}
