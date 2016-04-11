@@ -465,10 +465,10 @@ $(document).ready(function(){
 
                                             out += "<td id='aut' >"+arr[i].referencia+"</td>";
 
-                                            out += "<td >("+arr[i].coord_g_lat+" , "+arr[i].coord_g_long+")</td>"; 
+                                            out += "<td >"+arr[i].coord_g_lat+","+arr[i].coord_g_long+"</td>"; 
 
                                             out += "<td>"+arr[i].referencia_esp+"</td>";
-                                            out += "<td >("+arr[i].coord_lat+" , "+arr[i].coord_long+")</td>";
+                                            out += "<td >"+arr[i].coord_lat+","+arr[i].coord_long+"</td>";
 
                                             out += "<td>"+arr[i].ordem+"</td>";
 
