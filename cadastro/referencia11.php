@@ -106,6 +106,7 @@ if(!empty($_GET["msg"])){
     	<span>Origem:</span>
         <select name="origem" id="origem">
         <option value="<?php echo $row_mil["origem"]; ?>"></option>
+         <option value="Projeto">Projeto</option>
         <option value="Periódico">Periódico</option>
         <option value="Artigo">Artigo</option>
         <option value="Relatório Técnico">Relatório Técnico</option>
